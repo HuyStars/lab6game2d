@@ -11,7 +11,7 @@ public class PlayerRunning : MonoBehaviour
     [SerializeField] protected float speed = 5f;
     private float verticalVelocity = 0f;
     private float animTime = 2f;
-    public AudioSource running;
+    
 
     private void Awake()
     {
